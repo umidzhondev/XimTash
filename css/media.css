@@ -31,6 +31,55 @@
         gap: 20px;
     }
 
+    /** Blog Section */
+    .brand {
+        margin-bottom: 100px;
+    }
+
+    /** Review Section */
+    .review__card-top {
+        gap: 15px;
+        margin-bottom: 15px;
+        flex-direction: column;
+    }
+
+    .review__card-info {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .review__card-imgbox {
+        margin: 0 auto;
+    }
+
+    .review__card-description {
+        text-align: center;
+    }
+
+    /** Portfolio Section */
+    .portfolio {
+        padding-bottom: 100px;
+    }
+
+    /** Statistic Section */
+    .statistic__items {
+        grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+        grid-gap: 50px 0;
+    }
+
+    .statistic {
+        padding: 120px 0;
+    }
+
+    /** Blog Section */
+    .blog__cards {
+        grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    }
+
+    .blog__card-imgbox {
+        height: 250px;
+    }
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -66,7 +115,70 @@
         line-height: 30px;
     }
 
-  
+    /** Review Section */
+    .review {
+        margin-bottom: 100px;
+    }
+
+    .review__cards {
+        flex-wrap: wrap;
+    }
+
+    .review__title {
+        font-size: 40px;
+    }
+
+    .review__card {
+        padding: 35px 30px 45px 30px;
+        flex: 1 1 45%;
+    }
+
+    .review__content {
+        padding: 80px 40px 100px 40px;
+    }
+
+    /** Portfolio Section */
+    .portfolio__card-imgbox {
+        height: 520px;
+    }
+
+    .portfolio__header {
+        width: auto;
+    }
+
+    .portfolio__card-texts h3 {
+        font-size: 20px;
+    }
+
+    /** Statistic Section */
+    .statistic {
+        padding: 80px 0;
+        margin-bottom: 100px;
+    }
+
+    /** Blog Section */
+    .blog {
+        margin-bottom: 100px;
+    }
+
+    .blog__card-imgbox {
+        height: 260px;
+    }
+
+    .blog__header {
+        margin-bottom: 60px;
+    }
+
+    .blog__title {
+        font-size: 40px;
+        line-height: 1;
+    }
+
+    /** Contact Section */
+    .contact__title {
+        font-size: 40px;
+        line-height: 68px;
+    }
 
     /** Footer Section */
     .footer__main {
@@ -163,7 +275,100 @@
         height: 85px;
     }
 
-  
+    /** Blog Section */
+    .brand {
+        margin-bottom: 80px;
+    }
+
+
+    /** Review Section */
+    .review {
+        margin-bottom: 90px;
+    }
+
+    .review__title {
+        font-size: 36px;
+        width: auto;
+        line-height: 50px;
+    }
+
+    .review__card {
+        flex: auto;
+    }
+
+    .review__content {
+        padding: 70px 40px 70px 40px;
+    }
+
+    /** Portfolio Section */
+    .portfolio__title {
+        font-size: 40px;
+        line-height: 30px;
+    }
+
+    .portfolio__card-texts {
+        width: 80%;
+    }
+
+    .portfolio__card-texts h3 {
+        line-height: 32px;
+    }
+
+    .portfolio__header {
+        margin-bottom: 50px;
+    }
+
+    .portfolio__card-imgbox {
+        height: 400px;
+    }
+
+    /** Statistic Section */
+    .statistic {
+        margin-bottom: 70px;
+    }
+
+    /** Blog Section */
+    .blog {
+        margin-bottom: 70px;
+    }
+
+    .blog__header {
+        margin-bottom: 60px;
+        width: auto;
+    }
+
+    .blog__title {
+        font-size: 36px;
+        line-height: 1;
+    }
+
+    .blog__card {
+        padding: 20px;
+    }
+
+    .blog__card-title {
+        font-size: 22px;
+        line-height: 33px;
+    }
+
+    /** Contact Section */
+    .contact {
+        margin-bottom: 100px;
+    }
+
+    .contact__button {
+        padding: 18px;
+    }
+
+    .contact__content {
+        border-radius: 55px;
+        padding: 85px 0;
+    }
+
+    .contact__title {
+        font-size: 36px;
+        line-height: 50px;
+    }
 
     /** Footer Section */
     .footer__main {
@@ -269,7 +474,139 @@
         font-size: 18px;
     }
 
-  
+    /** Blog Section */
+    .brand {
+        margin-bottom: 60px;
+    }
+
+    /** Review Section */
+    .review {
+        margin-bottom: 70px;
+    }
+
+    .review__content {
+        padding: 55px 20px 45px 20px;
+        border-radius: 45px;
+    }
+
+    .review__title {
+        font-size: 32px;
+        line-height: 45px;
+        margin-bottom: 34px;
+    }
+
+    .review__card {
+        padding: 35px 20px 45px 20px;
+    }
+
+    .review__card-top {
+        margin-bottom: 10px;
+    }
+
+    .review__card-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .review__card-address {
+        font-size: 16px;
+    }
+
+    .review__card-imgbox {
+        width: 70px;
+        height: 70px;
+    }
+
+    .review__card-description {
+        font-size: 18px;
+    }
+
+    /** Portfolio Section */
+    .portfolio__title {
+        font-size: 35px;
+        line-height: 30px;
+    }
+
+    .portfolio__subtitle {
+        font-size: 20px;
+    }
+
+    .portfolio__card-imgbox {
+        height: 360px;
+    }
+
+    .portfolio__card-button {
+        width: 64px;
+        height: 64px;
+    }
+
+    .portfolio__cards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    /** Statistic Section */
+    .statistic {
+        padding: 80px 0;
+    }
+
+    .statistic__items {
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+        grid-gap: 40px 0;
+    }
+
+    .statistic__item h1 {
+        font-size: 70px;
+        line-height: 100px;
+    }
+
+    .statistic__item span {
+        font-size: 18px;
+    }
+
+    .statistic__item:nth-child(2),
+    .statistic__item:nth-child(4) {
+        border-right: 0;
+    }
+
+    /** Blog Section */
+    .blog__subtitle {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .blog__card-title {
+        font-size: 20px;
+    }
+
+    .blog__header {
+        margin-bottom: 30px;
+    }
+
+    .blog__title {
+        font-size: 30px;
+        line-height: 1
+    }
+
+    /** Contact Section */
+    .contact {
+        margin-bottom: 80px;
+    }
+
+    .contact__subtitle {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .contact__content {
+        padding: 85px 10px;
+    }
+
+    .contact__title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
     /** Footer Section */
     .footer__main {
         gap: 50px 70px;
@@ -337,6 +674,87 @@
         font-size: 18px;
     }
 
+    /** Review Section */
+    .review {
+        margin-bottom: 60px;
+    }
+
+    .review__content {
+        border-radius: 36px;
+    }
+
+    .review__title {
+        font-size: 28px;
+        line-height: 39px;
+        margin-bottom: 25px;
+    }
+
+    .review__card {
+        padding: 30px 15px 40px 15px;
+    }
+
+    /** Portfolio Section */
+    .portfolio__card-imgbox {
+        height: 320px;
+    }
+
+    .portfolio__header {
+        margin-bottom: 40px;
+    }
+
+    .portfolio__title {
+        font-size: 32px;
+        line-height: 23px;
+    }
+
+    /** Statistic Section */
+    .statistic {
+        padding: 40px 0;
+    }
+
+    .statistic__item h1 {
+        font-size: 64px;
+        line-height: 80px;
+    }
+
+    .statistic__item {
+        border-right: 0 !important;
+    }
+
+    /** Blog Section */
+    .blog__cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog__card {
+        width: 100%;
+    }
+
+    /** Contact Section */
+    .contact {
+        margin-bottom: 70px;
+    }
+
+    .contact__subtitle {
+        line-height: 30px;
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .contact__title {
+        font-size: 26px;
+        line-height: 37px;
+    }
+
+    .contact__content {
+        padding: 65px 10px;
+        border-radius: 40px;
+    }
+
+    .contact__button {
+        padding: 13px;
+    }
 
     /** Footer Section */
     .footer__main {
@@ -399,6 +817,37 @@
         padding: 60px 0;
     }
 
+    /** Portfolio Section */
+    .portfolio__title {
+        font-size: 28px;
+    }
+
+    .portfolio__card-imgbox {
+        height: 300px;
+    }
+
+    .portfolio__card-texts h3,
+    .portfolio__card-texts span {
+        font-size: 18px;
+    }
+
+    /** Blog Section */
+    .blog__card-imgbox {
+        height: 230px;
+    }
+
+    .blog__card-title {
+        font-size: 18px;
+    }
+
+    .blog__card {
+        padding: 15px;
+    }
+
+    /** Contact Section */
+    .contact {
+        margin-bottom: 60px;
+    }
 
     /** Footer Section */
     .footer__bottom-text {

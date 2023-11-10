@@ -91,7 +91,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: left .8s ease;
 }
 
 .nav.open {
